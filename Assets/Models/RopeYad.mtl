@@ -1,0 +1,6 @@
+newmtl mi_rope_startend_inst_base_color
+map_Kd /Users/stanislav/Documents/Work/New/PanicoreRef/Assets/Models/Rope/mi_rope_startend_inst_base_color.png
+bump /Users/stanislav/Documents/Work/New/PanicoreRef/Assets/Models/Rope/mi_rope_startend_inst_normalmap.png
+Kd 1 1 1
+d 1
+

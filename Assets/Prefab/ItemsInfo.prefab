@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5339331409501152215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 524882480330745482}
+  - component: {fileID: 4505385963459476725}
+  m_Layer: 0
+  m_Name: ItemsInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &524882480330745482
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5339331409501152215}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4505385963459476725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5339331409501152215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f39a255df2ddd4afd942c4a5dcfa4b16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ItemsInfo:
+  - itemID: 0
+    itemName: pins
+    _ItemType: 0
+    _Icon: {fileID: 21300000, guid: 607338f0a8ca34fadb90a14f415d4e89, type: 3}
+    _prefab: {fileID: 8244835350729322765, guid: c19d54f173f8f4420b90e9c66a1f2fea,
+      type: 3}
+  - itemID: 1
+    itemName: plank
+    _ItemType: 0
+    _Icon: {fileID: 21300000, guid: f98226d938a9c48f18629a8935728153, type: 3}
+    _prefab: {fileID: 1299096795018619536, guid: f39c33212ee14427891176c1df85302d,
+      type: 3}
+  - itemID: 2
+    itemName: rope
+    _ItemType: 0
+    _Icon: {fileID: 21300000, guid: a82a4aab16bf347f4b7f9a0de6a6bc80, type: 3}
+    _prefab: {fileID: 8917714593201916193, guid: 0a6911cdf4e284404b46f368511b99c0,
+      type: 3}
+  - itemID: 3
+    itemName: spring
+    _ItemType: 0
+    _Icon: {fileID: 21300000, guid: f076f57fc61bc4929aca3647aae421a7, type: 3}
+    _prefab: {fileID: 4079321767742784980, guid: ee41d41b5fe6541edb87f407fc2995a8,
+      type: 3}
+  - itemID: 4
+    itemName: acid
+    _ItemType: 0
+    _Icon: {fileID: 21300000, guid: 1d1e974872ffe4d27a3ff66c4c98f9f1, type: 3}
+    _prefab: {fileID: 4143210407458376173, guid: 5bf2dce8cc38f450a81e9f0cb586b40c,
+      type: 3}
+  - itemID: 5
+    itemName: mesh
+    _ItemType: 0
+    _Icon: {fileID: 21300000, guid: 1fa97ea6c0973430badec1be86d5ca4f, type: 3}
+    _prefab: {fileID: 3731827341977759618, guid: 07a2dc7e90044472ab3bb56a659fac46,
+      type: 3}
+  - itemID: 6
+    itemName: boards trap
+    _ItemType: 0
+    _Icon: {fileID: 21300000, guid: 8829f1232571c473ebdf7541f5147329, type: 3}
+    _prefab: {fileID: 3866630617877723841, guid: 827ed624b752e42c18fc93f9d1356e6e,
+      type: 3}
+  - itemID: 7
+    itemName: mesh trap
+    _ItemType: 0
+    _Icon: {fileID: 21300000, guid: 1f9cd4ae12df84177bf6ae638138b6ab, type: 3}
+    _prefab: {fileID: 5546951694725440510, guid: 1661b93b515b449d1abbc7d4a2fc438f,
+      type: 3}
+  - itemID: 8
+    itemName: poison trap
+    _ItemType: 0
+    _Icon: {fileID: 21300000, guid: 854aa324da84746d3a80b0a4fb472ebd, type: 3}
+    _prefab: {fileID: 6610388622565323088, guid: 6b8bf8493c5c745cf9cae37702677273,
+      type: 3}
+  - itemID: 9
+    itemName: freeze mine
+    _ItemType: 0
+    _Icon: {fileID: 21300000, guid: d4d6e984cab734fcfbfd288f92c4892d, type: 3}
+    _prefab: {fileID: 4651587978669163029, guid: 1ac348011c93540eab2f565cacca6145,
+      type: 3}
+  - itemID: 10
+    itemName: laser mine
+    _ItemType: 0
+    _Icon: {fileID: 21300000, guid: cba0ec5cc70264eb4ae50296e01ce523, type: 3}
+    _prefab: {fileID: 7119055419012749965, guid: 408765302becb49c9bcdcc1484303017,
+      type: 3}
+  - itemID: 11
+    itemName: beartrap
+    _ItemType: 0
+    _Icon: {fileID: 21300000, guid: 699cd93df718646329ea597dc4132203, type: 3}
+    _prefab: {fileID: 2127342697097321278, guid: d1d521bf89fe14dd69bd1a09bdce7261,
+      type: 3}
+  - itemID: 12
+    itemName: key
+    _ItemType: 0
+    _Icon: {fileID: 21300000, guid: 8fb655532dfe4438a9bc88dad95cc499, type: 3}
+    _prefab: {fileID: 8244835350729322765, guid: 18436a9c53b8c4b24adf533c2e35a6fb,
+      type: 3}
+  - itemID: 13
+    itemName: radio
+    _ItemType: 0
+    _Icon: {fileID: 21300000, guid: d5abc0679450e4897af6748214520f32, type: 3}
+    _prefab: {fileID: 8244835350729322765, guid: 3ec8c33d64ff541538fba4b0e38c0111,
+      type: 3}
+  - itemID: 14
+    itemName: black hole
+    _ItemType: 1
+    _Icon: {fileID: 21300000, guid: f7c8047d7e834487392faa465efa27ac, type: 3}
+    _prefab: {fileID: 3866630617877723841, guid: b864828b0ffba4024af1718a9ce925e7,
+      type: 3}
